@@ -15,14 +15,14 @@ Training data:
 https://www.mediafire.com/file/7juc3v01imbwbvg/TrainingData.zip/file
 
 ¿Como usar el programa?
-Despues de hacer los pasos mencionados anteriormente se debe bajar la data de entrenamiento del link, descomprimir el archivo zip y pasarle al programa el xml(datos etiquetados) como parametro.
+Despues de hacer los pasos mencionados anteriormente se debe bajar la data de entrenamiento del link, descomprimir el archivo zip y pasarle al programa la carpeta donde esta el xml(datos etiquetados) como parametro.
 
 En linux:
-./dnn_mmod_ex <ruta del archivo descomprimido>
+./dnn_mmod_ex "ruta del archivo descomprimido"
 ejemplo:
 ./dnn_mmod_ex D:\CNN Traineds\ApoyosTFM
   
 En windows(con Visual estudio 2015 o superior)
-click derecho en dnn_mmod_ex.cpp ->Porpiedades->despuración y en "argumentos de comandos" poner la ruta entre comillas "D:\CNN Traineds\ApoyosTFM"
+click derecho en dnn_mmod_ex.cpp ->Porpiedades->depuración y en "argumentos de comandos" poner la ruta entre comillas "D:\CNN Traineds\ApoyosTFM"
 
 
