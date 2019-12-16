@@ -1,6 +1,8 @@
 # TFM
 Trabajo fin de máster - IA
 
+![A test image](image.jpg)
+
 Para compilar el modelo de detección de objetos solo hay que bajar dlib http://dlib.net/compile.html
 construir todo el framewrok con cmake https://cmake.org seleccionando unicamente la carpeta samples(las demas carpetas y codigo c++ se vincularan a la estructura principal automaticamente)
 Y despues reemplazar todo el codigo del ejemplo "dnn_mmod_ex.cpp" por el codigo desarrollado para el TFM que esta en este repositorio con el mismo nombre.
